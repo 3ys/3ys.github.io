@@ -247,8 +247,9 @@ mark {
     margin-bottom: 0;
 }
 
+/* 修改主题颜色 */
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, c4ff0e 0%, f3ff0e 100%);
 }
 
 .text-color {
