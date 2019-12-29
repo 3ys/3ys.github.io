@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://3ys.github.io/"/>
-  <updated>2019-12-29T15:02:11.895Z</updated>
+  <updated>2019-12-29T15:15:46.869Z</updated>
   <id>https://3ys.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://3ys.github.io/2019/12/21/hou-duan/c/c-xue-xi-bi-ji-2-c-ji-chu-gai-nian-shu-li/"/>
     <id>https://3ys.github.io/2019/12/21/hou-duan/c/c-xue-xi-bi-ji-2-c-ji-chu-gai-nian-shu-li/</id>
     <published>2019-12-21T01:25:00.000Z</published>
-    <updated>2019-12-29T15:02:11.895Z</updated>
+    <updated>2019-12-29T15:15:46.869Z</updated>
     
     <summary type="html">
     
@@ -43,11 +43,11 @@
   </entry>
   
   <entry>
-    <title>C#学习笔记(1)—初识C#</title>
+    <title>域名、服务器与备案相关流程整理</title>
     <link href="https://3ys.github.io/2019/12/20/qian-duan/yu-ming-fu-wu-qi-yu-bei-an-xiang-guan-liu-cheng-zheng-li/"/>
     <id>https://3ys.github.io/2019/12/20/qian-duan/yu-ming-fu-wu-qi-yu-bei-an-xiang-guan-liu-cheng-zheng-li/</id>
     <published>2019-12-20T01:50:00.000Z</published>
-    <updated>2019-12-29T14:49:18.752Z</updated>
+    <updated>2019-12-29T15:16:35.064Z</updated>
     
     <summary type="html">
     
@@ -64,9 +64,7 @@
       <category term="前端" scheme="https://3ys.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
-      <category term="Java" scheme="https://3ys.github.io/tags/Java/"/>
-    
-      <category term="Spring" scheme="https://3ys.github.io/tags/Spring/"/>
+      <category term="网站" scheme="https://3ys.github.io/tags/%E7%BD%91%E7%AB%99/"/>
     
   </entry>
   
@@ -75,7 +73,7 @@
     <link href="https://3ys.github.io/2019/12/20/qian-duan/halo-bo-ke-bu-shu/"/>
     <id>https://3ys.github.io/2019/12/20/qian-duan/halo-bo-ke-bu-shu/</id>
     <published>2019-12-20T01:30:00.000Z</published>
-    <updated>2019-12-29T14:47:09.543Z</updated>
+    <updated>2019-12-29T15:15:59.787Z</updated>
     
     <summary type="html">
     
@@ -103,7 +101,7 @@
     <link href="https://3ys.github.io/2019/12/20/hou-duan/c/c-xue-xi-bi-ji-1-chu-shi-c/"/>
     <id>https://3ys.github.io/2019/12/20/hou-duan/c/c-xue-xi-bi-ji-1-chu-shi-c/</id>
     <published>2019-12-20T01:25:00.000Z</published>
-    <updated>2019-12-29T14:53:37.299Z</updated>
+    <updated>2019-12-29T15:15:36.504Z</updated>
     
     <summary type="html">
     
@@ -129,7 +127,7 @@
     <link href="https://3ys.github.io/2019/12/20/ruan-jian-gong-ju/markdown/markdown-yu-fa-zong-jie-geng-xin-zhong/"/>
     <id>https://3ys.github.io/2019/12/20/ruan-jian-gong-ju/markdown/markdown-yu-fa-zong-jie-geng-xin-zhong/</id>
     <published>2019-12-20T01:00:00.000Z</published>
-    <updated>2019-12-29T14:51:18.841Z</updated>
+    <updated>2019-12-29T15:17:10.677Z</updated>
     
     <summary type="html">
     
