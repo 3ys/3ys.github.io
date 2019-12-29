@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://3ys.github.io/"/>
-  <updated>2019-12-20T14:17:59.073Z</updated>
+  <updated>2019-12-29T14:49:18.752Z</updated>
   <id>https://3ys.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="https://3ys.github.io/2019/12/29/qian-duan/yu-ming-fu-wu-qi-yu-bei-an-xiang-guan-liu-cheng-zheng-li/"/>
-    <id>https://3ys.github.io/2019/12/29/qian-duan/yu-ming-fu-wu-qi-yu-bei-an-xiang-guan-liu-cheng-zheng-li/</id>
-    <published>2019-12-29T13:57:06.311Z</published>
-    <updated>2019-12-20T14:17:59.073Z</updated>
+    <title>C#学习笔记(1)—初识C#</title>
+    <link href="https://3ys.github.io/2019/12/20/qian-duan/yu-ming-fu-wu-qi-yu-bei-an-xiang-guan-liu-cheng-zheng-li/"/>
+    <id>https://3ys.github.io/2019/12/20/qian-duan/yu-ming-fu-wu-qi-yu-bei-an-xiang-guan-liu-cheng-zheng-li/</id>
+    <published>2019-12-20T01:50:00.000Z</published>
+    <updated>2019-12-29T14:49:18.752Z</updated>
     
     <summary type="html">
     
@@ -29,22 +29,27 @@
       
         
         
-          &lt;p&gt;[TOC]&lt;/p&gt;
-&lt;h2 id=&quot;1-阿里云购买学生服务器&quot;&gt;&lt;a href=&quot;#1-阿里云购买学生服务器&quot; class=&quot;headerlink&quot; title=&quot;1. 阿里云购买学生服务器&quot;&gt;&lt;/a&gt;1. 阿里云购买学生服务器&lt;/h2&gt;&lt;p&gt;“云翼计划(&lt;a
+          &lt;h2 id=&quot;1-阿里云购买学生服务器&quot;&gt;&lt;a href=&quot;#1-阿里云购买学生服务器&quot; class=&quot;headerlink&quot; title=&quot;1. 阿里云购买学生服务器&quot;&gt;&lt;/a&gt;1. 阿里云购买学生服务器&lt;/h2&gt;&lt;p&gt;“云翼计划(&lt;a
         
       
     
     </summary>
     
+      <category term="前端" scheme="https://3ys.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="Java" scheme="https://3ys.github.io/tags/Java/"/>
+    
+      <category term="Spring" scheme="https://3ys.github.io/tags/Spring/"/>
     
   </entry>
   
   <entry>
-    <title></title>
-    <link href="https://3ys.github.io/2019/12/29/ruan-jian-gong-ju/markdown/markdown-yu-fa-zong-jie-geng-xin-zhong/"/>
-    <id>https://3ys.github.io/2019/12/29/ruan-jian-gong-ju/markdown/markdown-yu-fa-zong-jie-geng-xin-zhong/</id>
-    <published>2019-12-29T13:56:54.695Z</published>
-    <updated>2019-12-20T14:19:36.123Z</updated>
+    <title>Halo博客部署</title>
+    <link href="https://3ys.github.io/2019/12/20/qian-duan/halo-bo-ke-bu-shu/"/>
+    <id>https://3ys.github.io/2019/12/20/qian-duan/halo-bo-ke-bu-shu/</id>
+    <published>2019-12-20T01:30:00.000Z</published>
+    <updated>2019-12-29T14:47:09.543Z</updated>
     
     <summary type="html">
     
@@ -52,22 +57,27 @@
       
         
         
-          &lt;p&gt;[TOC]&lt;/p&gt;
-&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;1-Halo简介&quot;&gt;&lt;a href=&quot;#1-Halo简介&quot; class=&quot;headerlink&quot; title=&quot;1.Halo简介&quot;&gt;&lt;/a&gt;1.Halo简介&lt;/h2&gt;&lt;p&gt;一款现代化的个人独立博客系统
         
       
     
     </summary>
     
+      <category term="前端" scheme="https://3ys.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="Java" scheme="https://3ys.github.io/tags/Java/"/>
+    
+      <category term="Spring" scheme="https://3ys.github.io/tags/Spring/"/>
     
   </entry>
   
   <entry>
-    <title></title>
-    <link href="https://3ys.github.io/2019/12/29/qian-duan/halo-bo-ke-bu-shu-liu-cheng/"/>
-    <id>https://3ys.github.io/2019/12/29/qian-duan/halo-bo-ke-bu-shu-liu-cheng/</id>
-    <published>2019-12-29T13:56:26.131Z</published>
-    <updated>2019-12-20T14:19:07.649Z</updated>
+    <title>C#学习笔记(1)—初识C#</title>
+    <link href="https://3ys.github.io/2019/12/20/hou-duan/c/c-xue-xi-bi-ji-1-chu-shi-c/"/>
+    <id>https://3ys.github.io/2019/12/20/hou-duan/c/c-xue-xi-bi-ji-1-chu-shi-c/</id>
+    <published>2019-12-20T01:25:00.000Z</published>
+    <updated>2019-12-29T14:53:37.299Z</updated>
     
     <summary type="html">
     
@@ -75,22 +85,25 @@
       
         
         
-          &lt;p&gt;[TOC]&lt;/p&gt;
-&lt;h2 id=&quot;1-Halo简介&quot;&gt;&lt;a href=&quot;#1-Halo简介&quot; class=&quot;headerlink&quot; title=&quot;1.Halo简介&quot;&gt;&lt;/a&gt;1.Halo简介&lt;/h2&gt;&lt;p&gt;一款现代化的个人独立博客系统
+          &lt;h2 id=&quot;1-C-与-NET简介&quot;&gt;&lt;a href=&quot;#1-C-与-NET简介&quot; class=&quot;headerlink&quot; title=&quot;1.C# 与.NET简介&quot;&gt;&lt;/a&gt;1.C#
         
       
     
     </summary>
     
+      <category term="C#" scheme="https://3ys.github.io/categories/C/"/>
+    
+    
+      <category term="C#学习笔记" scheme="https://3ys.github.io/tags/C-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
-    <title></title>
-    <link href="https://3ys.github.io/2019/12/29/hou-duan/c/c-xue-xi-bi-ji-yi-chu-shi-c/"/>
-    <id>https://3ys.github.io/2019/12/29/hou-duan/c/c-xue-xi-bi-ji-yi-chu-shi-c/</id>
-    <published>2019-12-29T13:56:16.048Z</published>
-    <updated>2019-12-29T14:09:29.086Z</updated>
+    <title>C#学习笔记(2)—初识C#</title>
+    <link href="https://3ys.github.io/2019/12/20/hou-duan/c/c-xue-xi-bi-ji-2-c-ji-chu-gai-nian-shu-li/"/>
+    <id>https://3ys.github.io/2019/12/20/hou-duan/c/c-xue-xi-bi-ji-2-c-ji-chu-gai-nian-shu-li/</id>
+    <published>2019-12-20T01:25:00.000Z</published>
+    <updated>2019-12-29T14:52:44.613Z</updated>
     
     <summary type="html">
     
@@ -98,22 +111,25 @@
       
         
         
-          &lt;p&gt;[TOC]&lt;/p&gt;
-&lt;h2 id=&quot;1-C-与-NET简介&quot;&gt;&lt;a href=&quot;#1-C-与-NET简介&quot; class=&quot;headerlink&quot; title=&quot;1.C# 与.NET简介&quot;&gt;&lt;/a&gt;1.C#
+          &lt;h2 id=&quot;1-方法-methods&quot;&gt;&lt;a href=&quot;#1-方法-methods&quot; class=&quot;headerlink&quot;
         
       
     
     </summary>
     
+      <category term="C#" scheme="https://3ys.github.io/categories/C/"/>
+    
+    
+      <category term="C#学习笔记" scheme="https://3ys.github.io/tags/C-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
-    <title></title>
-    <link href="https://3ys.github.io/2019/12/29/hou-duan/c/c-xue-xi-bi-ji-er-c-ji-chu-gai-nian-shu-li/"/>
-    <id>https://3ys.github.io/2019/12/29/hou-duan/c/c-xue-xi-bi-ji-er-c-ji-chu-gai-nian-shu-li/</id>
-    <published>2019-12-29T13:56:16.046Z</published>
-    <updated>2019-12-21T11:03:53.392Z</updated>
+    <title>Markdown语法总结(更新中)</title>
+    <link href="https://3ys.github.io/2019/12/20/ruan-jian-gong-ju/markdown/markdown-yu-fa-zong-jie-geng-xin-zhong/"/>
+    <id>https://3ys.github.io/2019/12/20/ruan-jian-gong-ju/markdown/markdown-yu-fa-zong-jie-geng-xin-zhong/</id>
+    <published>2019-12-20T01:00:00.000Z</published>
+    <updated>2019-12-29T14:51:18.841Z</updated>
     
     <summary type="html">
     
@@ -121,13 +137,16 @@
       
         
         
-          &lt;p&gt;[TOC]&lt;/p&gt;
-&lt;h2 id=&quot;1-方法-methods&quot;&gt;&lt;a href=&quot;#1-方法-methods&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
         
       
     
     </summary>
     
+      <category term="软件工具" scheme="https://3ys.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="Mrkdown" scheme="https://3ys.github.io/tags/Mrkdown/"/>
     
   </entry>
   
