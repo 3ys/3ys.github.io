@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://3ys.github.io/"/>
-  <updated>2019-12-29T14:49:18.752Z</updated>
+  <updated>2019-12-29T15:02:11.895Z</updated>
   <id>https://3ys.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>C#学习笔记(2)—初识C#</title>
+    <link href="https://3ys.github.io/2019/12/21/hou-duan/c/c-xue-xi-bi-ji-2-c-ji-chu-gai-nian-shu-li/"/>
+    <id>https://3ys.github.io/2019/12/21/hou-duan/c/c-xue-xi-bi-ji-2-c-ji-chu-gai-nian-shu-li/</id>
+    <published>2019-12-21T01:25:00.000Z</published>
+    <updated>2019-12-29T15:02:11.895Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;1-方法-methods&quot;&gt;&lt;a href=&quot;#1-方法-methods&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="C#" scheme="https://3ys.github.io/categories/C/"/>
+    
+    
+      <category term="C#学习笔记" scheme="https://3ys.github.io/tags/C-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>C#学习笔记(1)—初识C#</title>
@@ -99,32 +125,6 @@
   </entry>
   
   <entry>
-    <title>C#学习笔记(2)—初识C#</title>
-    <link href="https://3ys.github.io/2019/12/20/hou-duan/c/c-xue-xi-bi-ji-2-c-ji-chu-gai-nian-shu-li/"/>
-    <id>https://3ys.github.io/2019/12/20/hou-duan/c/c-xue-xi-bi-ji-2-c-ji-chu-gai-nian-shu-li/</id>
-    <published>2019-12-20T01:25:00.000Z</published>
-    <updated>2019-12-29T14:52:44.613Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;1-方法-methods&quot;&gt;&lt;a href=&quot;#1-方法-methods&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="C#" scheme="https://3ys.github.io/categories/C/"/>
-    
-    
-      <category term="C#学习笔记" scheme="https://3ys.github.io/tags/C-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Markdown语法总结(更新中)</title>
     <link href="https://3ys.github.io/2019/12/20/ruan-jian-gong-ju/markdown/markdown-yu-fa-zong-jie-geng-xin-zhong/"/>
     <id>https://3ys.github.io/2019/12/20/ruan-jian-gong-ju/markdown/markdown-yu-fa-zong-jie-geng-xin-zhong/</id>
@@ -152,10 +152,10 @@
   
   <entry>
     <title>Hexo博客搭建-主题matery</title>
-    <link href="https://3ys.github.io/2018/09/28/qian-duan/hexo-bo-ke-da-jian-zhu-ti-matery/"/>
-    <id>https://3ys.github.io/2018/09/28/qian-duan/hexo-bo-ke-da-jian-zhu-ti-matery/</id>
-    <published>2018-09-28T05:34:00.000Z</published>
-    <updated>2019-12-29T13:52:30.305Z</updated>
+    <link href="https://3ys.github.io/2019/09/28/qian-duan/hexo-bo-ke-da-jian-zhu-ti-matery/"/>
+    <id>https://3ys.github.io/2019/09/28/qian-duan/hexo-bo-ke-da-jian-zhu-ti-matery/</id>
+    <published>2019-09-28T05:34:00.000Z</published>
+    <updated>2019-12-29T15:01:48.261Z</updated>
     
     <summary type="html">
     
@@ -175,32 +175,6 @@
       <category term="Hexo" scheme="https://3ys.github.io/tags/Hexo/"/>
     
       <category term="hexo-theme-matery" scheme="https://3ys.github.io/tags/hexo-theme-matery/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Git知识点整理</title>
-    <link href="https://3ys.github.io/2018/09/24/ruan-jian-gong-ju/git/git-zhi-shi-dian-zheng-li/"/>
-    <id>https://3ys.github.io/2018/09/24/ruan-jian-gong-ju/git/git-zhi-shi-dian-zheng-li/</id>
-    <published>2018-09-24T13:50:00.000Z</published>
-    <updated>2019-12-27T04:00:59.978Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;1-Git基本概念。&quot;&gt;&lt;a href=&quot;#1-Git基本概念。&quot; class=&quot;headerlink&quot; title=&quot;1. Git基本概念。&quot;&gt;&lt;/a&gt;1.
-        
-      
-    
-    </summary>
-    
-      <category term="软件工具" scheme="https://3ys.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/"/>
-    
-    
-      <category term="Git" scheme="https://3ys.github.io/tags/Git/"/>
     
   </entry>
   

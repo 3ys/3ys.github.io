@@ -4,17 +4,14 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="C#学习笔记(1)—初识C#, Galaxy, YinJian Huang">
-    <meta name="description" content="1.C# 与.NET简介
-.NET的编程语言：.NET平台编程语言包括C#、F#、VB。
-
-.NET的应用：桌面程序、Web、手机程序、游戏开发、机器学习、云计算、微服务、物联网。
-
-
-Desktop: WPF、Forms、UWP
+    <meta name="keywords" content="C#学习笔记(2)—初识C#, Galaxy, YinJian Huang">
+    <meta name="description" content="1.方法(methods)
+方法：纯面向对象语言，方法不能独立于类之外，它是类的成员(成员函数)
+(实例)构造器(instance constructor)：它是类的成员，构建实例的方法
+构造器声明快捷方式：prop+tabx2
 
 
-We">
+重载(">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -22,7 +19,7 @@ We">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>C#学习笔记(1)—初识C# | Galaxy</title>
+    <title>C#学习笔记(2)—初识C# | Galaxy</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/3ys/cdn@2.0/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -216,7 +213,7 @@ We">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        C#学习笔记(1)—初识C#
+                        C#学习笔记(2)—初识C#
                     </div>
                 </div>
             </div>
@@ -332,21 +329,21 @@ We">
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-12-20
+                    2019-12-21
                 </div>
 
                 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        1.2k
+                        457
                     </div>
                     
 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        4 分
+                        1 分
                     </div>
                     
                 
@@ -362,159 +359,41 @@ We">
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="1-C-与-NET简介"><a href="#1-C-与-NET简介" class="headerlink" title="1.C# 与.NET简介"></a>1.C# 与.NET简介</h2><ul>
-<li><p>.NET的编程语言：.NET平台编程语言包括C#、F#、VB。</p>
-</li>
-<li><p>.NET的应用：桌面程序、Web、手机程序、游戏开发、机器学习、云计算、微服务、物联网。</p>
-</li>
-<li><ul>
-<li>Desktop: <strong>WPF</strong>、<strong>Forms</strong>、UWP</li>
+                <h2 id="1-方法-methods"><a href="#1-方法-methods" class="headerlink" title="1.方法(methods)"></a>1.方法(methods)</h2><ul>
+<li>方法：纯面向对象语言，方法不能独立于类之外，它是类的成员(成员函数)</li>
+<li>(实例)构造器(instance constructor)：它是类的成员，构建实例的方法<ul>
+<li>构造器声明快捷方式：<code>prop</code>+<code>tab</code>x2</li>
 </ul>
 </li>
-<li><p>Web: <strong>ASP.NET</strong></p>
-<ul>
-<li>Mobile: Xamarin</li>
+<li>重载(Overload)：同名不同参或不同返回值类型</li>
+</ul>
+<h2 id="2-操作符"><a href="#2-操作符" class="headerlink" title="2.操作符"></a>2.操作符</h2><p>略…</p>
+<h2 id="3-表达式、语句"><a href="#3-表达式、语句" class="headerlink" title="3.表达式、语句"></a>3.表达式、语句</h2><p>略…</p>
+<h2 id="4-字段、属性、索引器、常量"><a href="#4-字段、属性、索引器、常量" class="headerlink" title="4.字段、属性、索引器、常量"></a>4.字段、属性、索引器、常量</h2><ul>
+<li>字段(field)：即成员变量，内部存储。</li>
+<li>属性(property)：C#特有，从<code>Get/Set</code>方法进化而来，由外部访问，保护字段值合理<ul>
+<li>属性完整声明快捷方式：<code>propfull</code>+<code>tab</code>x2</li>
+<li>属性简略声明快捷方式：<code>prop</code>+<code>tab</code>x2，此时不能保护字段</li>
 </ul>
 </li>
-<li><p>Gaming: <strong>Unity</strong>…</p>
-<ul>
-<li>IoT: UWP</li>
-<li>…….</li>
+<li>索引器：略</li>
+<li>常量：略</li>
 </ul>
-</li>
-<li><p>C# 语言介绍</p>
-<p>C# 源文件的文件扩展名通常为 <strong><code>.cs</code></strong>。<strong><code>Main</code> 静态方法</strong>是程序的入口点，但是库(dll)（不含 <code>Main</code> 入口点的代码）。</p>
-</li>
-<li><p>.NET Framework 平台体系结构</p>
-<p>  C# 程序<strong>在 .NET Framework 上运行</strong>，用 C# 编写的<strong>源代码</strong>被编译成符合 CLI 规范的<strong><a href="https://docs.microsoft.com/zh-cn/dotnet/standard/managed-code" target="_blank" rel="noopener">中间语言 (IL)</a></strong>。 IL 代码和资源（如位图和字符串）存储在磁盘上名为“<strong>程序集</strong>”的可执行文件（扩展名通常为 .exe 或 .dll）中。 程序集包含一个介绍程序集的类型、版本、区域性和安全要求的清单。</p>
-<p>  当 C# 程序执行时，程序集会加载到 <strong>CLR</strong> 中，可能根据清单中的信息执行各种操作。 然后，如果满足安全要求，CLR 会直接执行实时 (JIT) <strong>编译</strong>，将 IL 代码转换成<strong>本机指令</strong>。 CLR 还提供其他与自动垃圾回收、异常处理和资源管理相关的服务。 </p>
-<p>![体系结构](<a href="https://cdn.jsdelivr.net/gh/3ys/cdn@2019/medias/Blog/.NET" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/3ys/cdn@2019/medias/Blog/.NET</a> Framework.png)</p>
-<h2 id="2-C-程序结构"><a href="#2-C-程序结构" class="headerlink" title="2. C# 程序结构"></a>2. C# 程序结构</h2></li>
-</ul>
-<p>C# 中的关键组织结构概念包括：<strong>程序集</strong>、<strong>程序</strong>、<strong>命名空间</strong>、<strong>类型</strong>、<strong>成员</strong>。 C# <strong>程序</strong>由一个或多个源文件组成。 程序声明<strong>类型</strong>，而类型则包含<strong>成员</strong>，并被整理到<strong>命名空间</strong>中。编译完的 C# 程序实际上会打包到<strong>程序集</strong>中。</p>
-<p> 类型示例包括：类和接口。 成员示例包括：字段、方法、属性和事件。  程序集的文件扩展名通常为 <code>.exe</code> 或 <code>.dll</code>，具体取决于实现的是<strong>应用程序</strong>还是<strong>库</strong>。</p>
-<p>需要注意的是：</p>
-<blockquote>
-<ul>
-<li><em>在 C# 中不需要使用<strong>前向声明</strong>，因为声明顺序无关紧要（除了极少数的例外情况）。</em></li>
-</ul>
-<ul>
-<li><p><em>名称空间–&gt;类–&gt;成员，即由大到小的包含关系。<strong>不同名称空间可能有相同名称的类</strong>，所以即使导入名称空间也可能需要特指，否则会冲突。</em></p>
-</li>
-<li><p>类库引用</p>
-<ul>
-<li>DLL引用(<strong><em>黑盒引用，无代码，不可更改</em></strong>)<ul>
-<li>单独DLL</li>
-<li>NuGet(库内DLL存在复杂的依赖关系)</li>
-</ul>
-</li>
-<li>项目引用(<strong><em>白盒引用，有代码，可更改</em></strong>)<ul>
-<li>Class Library</li>
+<h2 id="5-传值、输出、引用、数组、具名、可选参数、扩展方法"><a href="#5-传值、输出、引用、数组、具名、可选参数、扩展方法" class="headerlink" title="5.传值、输出、引用、数组、具名、可选参数、扩展方法"></a>5.传值、输出、引用、数组、具名、可选参数、扩展方法</h2><ul>
+<li>传值参数:参数的默认传递方式</li>
+<li>输出参数:使用<code>out</code>关键字，用于除返回值外还需要输出的场景</li>
+<li>引用参数:使用<code>ref</code>关键字，用于需要修改实际参数值的场景</li>
+<li>数组参数:使用<code>params</code>关键字，用于简化方法的调用</li>
+<li>具名参数:使用<code>参数名：参数值</code>，提高可读性，不再限定参数输入顺序</li>
+<li>可选参数:参数赋予默认值后可实现可选输入</li>
+<li>扩展方法(this参数) :为目标数据类型“追加”方法<ul>
+<li>方法必须是公有的、静态的，即由<code>public static</code>修饰</li>
+<li>只能用<code>this</code>修饰形参列表中的第一个</li>
+<li>一般由一个静态类(一般命名为<code>TypeExtention</code>)来收纳扩展方法</li>
 </ul>
 </li>
 </ul>
-</li>
-</ul>
-</blockquote>
-<h2 id="3-C-语言基本元素"><a href="#3-C-语言基本元素" class="headerlink" title="3. C#语言基本元素"></a>3. C#语言基本元素</h2><ul>
-<li><p>关键字(Keyword)——C#保留字段</p>
-</li>
-<li><p>标识符(Identifier)——用户定义</p>
-<blockquote>
-<ul>
-<li><p><em>命名要有实际意义，辨识度要高。</em></p>
-</li>
-<li><p><em>C#规定：名称空间、方法、类、字段、属性用<strong>Pascal命名法</strong>如：<code>MyTool</code>，变量名用<strong>驼峰法</strong>如：<code>myTool</code>。</em></p>
-</li>
-<li><p><em>Java一般都用驼峰法。</em></p>
-</li>
-</ul>
-</blockquote>
-</li>
-<li><p>文本(字面值)：整数、实数、字符、字符串、布尔、空(null)</p>
-</li>
-<li><p>操作符(Operator：计算、关系、逻辑、条件、赋值等等</p>
-</li>
-<li><p>标点符号：<code>,</code>、<code>;</code>、<code>{}</code></p>
-</li>
-<li><p>语句：</p>
-</li>
-<li><ul>
-<li><strong><em>声明语句</em></strong>，用于声明局部变量和常量。</li>
-<li><strong><em>表达式语句</em></strong>，<em>包括方法调用、使用 <code>new</code> 运算符的对象分配、使用 <code>=</code> 和复合赋值运算符的赋值、使用 <code>++</code> 和 <code>--</code> 运算符和 <code>await</code> 表达式的递增和递减运算。</em></li>
-<li><strong><em>选择语句</em></strong>，<em>包括 <code>if</code> 和 <code>switch</code> 语句。</em></li>
-<li><strong><em>迭代语句</em></strong>，<em>包括 <code>while</code>、<code>do</code>、<code>for</code> 和 <code>foreach</code> 语句。</em></li>
-<li><strong><em>跳转语句</em></strong>，<em>包括 <code>break</code>、<code>continue</code>、<code>goto</code>、<code>throw</code>、<code>return</code> 和 <code>yield</code> 语句。</em></li>
-<li><em><code>try</code>…<code>catch</code> 语句，用于捕获在代码块执行期间发生的异常，<code>try</code>…<code>finally</code> 语句用于指定始终执行的最终代码，无论异常发生与否。</em></li>
-<li>……</li>
-</ul>
-</li>
-<li><p>注释</p>
-<ul>
-<li>单行注释: <code>//string str;</code></li>
-<li>块注释: <code>/*string str;*/</code></li>
-</ul>
-</li>
-</ul>
-<h2 id="4-数据类型、变量、对象"><a href="#4-数据类型、变量、对象" class="headerlink" title="4. 数据类型、变量、对象"></a>4. 数据类型、变量、对象</h2><ul>
-<li><p>2大数据类型</p>
-<ul>
-<li><p><strong>引用类型</strong></p>
-<ul>
-<li><p>类类型(Classes)——关键字：<code>class</code>，特别注意字符串<code>string</code>也是类类型</p>
-</li>
-<li><p>接口类型(Interfaces)——关键字：<code>interface</code></p>
-</li>
-<li><p>委托类型(Delegates)——关键字：<code>delegate</code></p>
-</li>
-<li><p>数组类型——一维数组 <code>int[]</code>、一维数组构成的一维数组:<code>int[][]</code>…</p>
-<blockquote>
-<p><em><code>class</code>、<code>struct</code>、<code>interface</code> 和 <code>delegate</code> 类型全部都<strong>支持泛型</strong>，因此可以使用其他类型对它们进行参数化。</em></p>
-</blockquote>
-</li>
-</ul>
-</li>
-<li><p><strong>值类型</strong></p>
-<ul>
-<li>简单类型——整型、浮点型、字符型、布尔型…</li>
-<li>结构类型(Structures)——关键字：<code>struct</code></li>
-<li>枚举类型(Enumerations)——关键字：<code>enum</code></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>变量、对象与内存</p>
-<ul>
-<li>变量——表明了存储位置+类型</li>
-<li>值类型的变量——没有实例，即不需要使用<code>new</code></li>
-<li>引用类型的变量——需要<strong>实例化</strong>，其存储的数据是<strong>对象的内存地址</strong></li>
-<li>变量存储位置——局部变量在栈(stack)，成员变量在堆</li>
-<li>变量默认值——局部变量无默认值，成员变量有默认值</li>
-</ul>
-</li>
-</ul>
-<h2 id="5-类、对象、类成员"><a href="#5-类、对象、类成员" class="headerlink" title="5. 类、对象、类成员"></a>5. 类、对象、类成员</h2><ul>
-<li><p>类与对象</p>
-<blockquote>
-<p>即抽象模型与具体实例的关系，对象是类通过<code>new</code>实例化后生成的。</p>
-</blockquote>
-</li>
-<li><p>类的三大成员</p>
-<ul>
-<li>属性(Property)——数据</li>
-<li>方法(Method)——方法</li>
-<li>事件(Event)——通知其他类或对象</li>
-</ul>
-</li>
-<li><p>静态成员、实例成员</p>
-<ul>
-<li>静态成员(Static)——类所属</li>
-<li>实例成员——对象所属</li>
-<li><code>.</code>操作符——成员访问</li>
-</ul>
-</li>
-</ul>
-
+<h2 id="6-委托"><a href="#6-委托" class="headerlink" title="6.委托"></a>6.委托</h2><h2 id="7-事件"><a href="#7-事件" class="headerlink" title="7.事件"></a>7.事件</h2><h2 id="8-类"><a href="#8-类" class="headerlink" title="8.类"></a>8.类</h2><h2 id="9-继承"><a href="#9-继承" class="headerlink" title="9.继承"></a>9.继承</h2><h2 id="10-重写、多态"><a href="#10-重写、多态" class="headerlink" title="10.重写、多态"></a>10.重写、多态</h2><h2 id="11-抽象类与开闭原则"><a href="#11-抽象类与开闭原则" class="headerlink" title="11.抽象类与开闭原则"></a>11.抽象类与开闭原则</h2><h2 id="12-接口，依赖反转、单元测试"><a href="#12-接口，依赖反转、单元测试" class="headerlink" title="12.接口，依赖反转、单元测试"></a>12.接口，依赖反转、单元测试</h2><h2 id="13-接口隔离、反射、特性、依赖注入"><a href="#13-接口隔离、反射、特性、依赖注入" class="headerlink" title="13.接口隔离、反射、特性、依赖注入"></a>13.接口隔离、反射、特性、依赖注入</h2><h2 id="14-泛型、部分类、枚举、结构体"><a href="#14-泛型、部分类、枚举、结构体" class="headerlink" title="14.泛型、部分类、枚举、结构体"></a>14.泛型、部分类、枚举、结构体</h2>
             </div>
             <hr/>
 
@@ -537,7 +416,7 @@ We">
                     </span>
                     <a href="https://3ys.github.io" class="b-link-green">Galaxy</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
-                    <a href="/2019/12/20/hou-duan/c/c-xue-xi-bi-ji-1-chu-shi-c/" class="b-link-green">C#学习笔记(1)—初识C#</a>
+                    <a href="/2019/12/21/hou-duan/c/c-xue-xi-bi-ji-2-c-ji-chu-gai-nian-shu-li/" class="b-link-green">C#学习笔记(2)—初识C#</a>
                 </p>
             </div>
         </div>
@@ -559,7 +438,7 @@ We">
         repo: '3ys.github.io',
         owner: '3ys',
         admin: ["3ys"],
-        id: '2019-12-20T09-25-00',
+        id: '2019-12-21T09-25-00',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -580,28 +459,77 @@ We">
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2019/12/20/qian-duan/halo-bo-ke-bu-shu/">
+                <a href="/2019/12/21/hou-duan/c/c-xue-xi-bi-ji-2-c-ji-chu-gai-nian-shu-li/">
                     <div class="card-image">
                         
-                        <img src="https://cdn.jsdelivr.net/gh/3ys/cdn@2019/medias/Blog/Halo.jpg" class="responsive-img" alt="Halo博客部署">
+                        <img src="https://cdn.jsdelivr.net/gh/3ys/cdn@2019/medias/Blog/Csharp.png" class="responsive-img" alt="C#学习笔记(2)—初识C#">
                         
-                        <span class="card-title">Halo博客部署</span>
+                        <span class="card-title">C#学习笔记(2)—初识C#</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
-                    <div class="summary">1.Halo简介一款现代化的个人独立博客系统 。
+                    <div class="summary">1.方法(methods)
+方法：纯面向对象语言，方法不能独立于类之外，它是类的成员(成员函数)
+(实例)构造器(instance constructor)：它是类的成员，构建实例的方法
+构造器声明快捷方式：prop+tabx2
 
-快速部署一条命令即可启动，完全没有上手难度。  
-多主题完备的主题系统，支持在线下载和在线更新，并提供 9 款主题可供选择（主题开发文档正在开发中）。  
-拓展性提供 Content Ap</div>
+
+重载(</div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-12-20
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-12-21
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/C/" class="post-category" target="_blank">
+                                    C#
+                                </a>
+                            
+                            
                         </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/C-学习笔记/" target="_blank">
+                        <span class="chip bg-color">C#学习笔记</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2019/12/20/qian-duan/yu-ming-fu-wu-qi-yu-bei-an-xiang-guan-liu-cheng-zheng-li/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="https://cdn.jsdelivr.net/gh/3ys/cdn@2.0/medias/featureImages/3.jpg" class="responsive-img" alt="C#学习笔记(1)—初识C#">
+                        
+                        <span class="card-title">C#学习笔记(1)—初识C#</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">1. 阿里云购买学生服务器“云翼计划(https://promotion.aliyun.com/ntms/campus2017.html)”——优惠享受流程：① 注册阿里云账号 → ② 完成实名认证 → ③ 完成学生认证 → ④ 购买优惠产</div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-12-20
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
@@ -623,50 +551,6 @@ We">
                     
                     <a href="/tags/Spring/" target="_blank">
                         <span class="chip bg-color">Spring</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2019/12/20/ruan-jian-gong-ju/markdown/markdown-yu-fa-zong-jie-geng-xin-zhong/">
-                    <div class="card-image">
-                        
-                        <img src="https://cdn.jsdelivr.net/gh/3ys/cdn@2019/medias/Blog/Markdown.jpg" class="responsive-img" alt="Markdown语法总结(更新中)">
-                        
-                        <span class="card-title">Markdown语法总结(更新中)</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary">前言以前学算法的时候经常用CSDN写一些总结，用了一段时间后觉得内置的编辑工具排版很不顺手，后来就慢慢的不再用它写东西了。之后自己就一直在找一些搭建个人博客的方法、工具、开源项目，想着做一个个人主页，也能把自己的一些想法和学习总结放在上面。</div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-12-20
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fa fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/软件工具/" class="post-category" target="_blank">
-                                    软件工具
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Mrkdown/" target="_blank">
-                        <span class="chip bg-color">Mrkdown</span>
                     </a>
                     
                 </div>
